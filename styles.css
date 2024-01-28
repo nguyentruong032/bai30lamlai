@@ -1,17 +1,9 @@
 * {
   padding: 0;
-  margin: 10;
-  height: 100%;
+  margin: 0;
 }
-.d-flex {
-  display: flex;
-}
-.justify-space-evenly {
-  justify-content: space-evenly;
-}
-
 .banner1 {
-  background-image: url("./img/backgroundbanner1.png");
+  background-image: url(anh/Backgroundbanner1.png);
   width: 100%;
   height: 800px;
 }
@@ -76,7 +68,7 @@ hr {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .anh2 {
-  background-image: url("./img/Backgroundbanner2.png");
+  background-image: url(anh/Backgroundbanner2.png);
   width: 100%;
   height: 600px;
 }
@@ -156,7 +148,7 @@ hr {
 .banner5 {
   width: 100%;
   height: 1000px;
-  background-image: url("./img/backgroundbanner5.png");
+  background-image: url(anh/Backgroundbanner5.png);
 }
 .content5 {
   padding-left: 100px;
@@ -176,7 +168,7 @@ hr {
 .banner6 {
   position: relative;
   height: 1000px;
-  background-image: url("./img/Backgroundbanner6.png");
+  background-image: url(anh/Backgroundbanner6.png);
 }
 .content6 {
   padding-left: 70px;
@@ -221,101 +213,109 @@ hr {
   z-index: 1;
 }
 .banner7 {
-  background-image: url("./img/backgroundbanner7.png");
-  position: relative;
+  width: auto;
+  height: 700px;
+  background-image: url(anh/backgroundbanner7.png);
 }
-
-.banner7__text1 p {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  font-size: 70px;
-  color: white;
-  font-weight: bold;
-}
-.banner7__text2 {
-  position: absolute;
-  top: 60%;
-  left: 70%;
-  font-size: 40px;
+.content7 {
+  float: right;
+  padding-right: 30px;
+  padding-top: 400px;
+  text-align: right;
   color: white;
 }
-.banner7__text3 {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  font-size: 40px;
-  color: white;
+.title7 {
+  width: 500px;
+  font-size: 50px;
 }
-/* banner8 */
-.banner8__text1 {
+.Header7 {
+  font-size: 20px;
+  width: 500px;
+}
+.material7-1 {
+  font-size: 30px;
+  width: 500px;
+}
+.material7-2 {
+  font-size: 30px;
+  width: 500px;
+}
+.title8 {
   text-align: center;
   font-size: 50px;
   height: 70px;
 }
-.banner8__text2 {
+.Header8 {
   text-align: center;
   top: 10px;
   font-size: 25px;
   color: black;
   height: 70px;
 }
-/* hang chau cay */
-.chaucay__1 {
+.content8-1 {
   height: 500px;
 }
-.chaucay__1 .hang_1 {
+.content8-1 .col8-1 {
   float: left;
   width: 25%;
 }
-.hang_1 img {
-  width: 100%;
+.col8-1 img {
+  padding-left: 20px;
+  width: 80%;
   height: auto;
   justify-content: space-evenly;
 }
-.chaucay__1 .hang_1 p:first-of-type {
+.content8-1 .col8-1 p:first-of-type {
+  padding-left: 20px;
   color: rgb(2, 74, 2);
   font-size: 20px;
   height: 25px;
 }
-.chaucay__1 .hang_1 p:last-of-type {
+.content8-1 .col8-1 p:last-of-type {
+  padding-right: 40px;
   color: black;
   font-size: 15px;
   text-align: end;
 }
-.chaucay_2 {
+.content8-2 {
   height: 500px;
 }
-.chaucay_2 .hang_2 {
+.content8-2 .col8-2 {
   float: left;
   width: 25%;
 }
-.hang_2 img {
-  width: 100%;
+.col8-2 img {
+  padding-left: 20px;
+  width: 80%;
   height: auto;
   justify-content: space-evenly;
 }
 
-.chaucay_2 .hang_2 p:first-of-type {
+.content8-2 .col8-2 p:first-of-type {
+  padding-left: 20px;
   height: 25px;
   color: rgb(2, 74, 2);
   font-size: 20px;
 }
-.chaucay_2 .hang_2 p:last-of-type {
+.content8-2 .col8-2 p:last-of-type {
+  padding-right: 40px;
   color: black;
   font-size: 15px;
   text-align: end;
   height: 50px;
 }
-.banner9_background {
-  margin-top: 450px;
-  background-image: url("./img/backgroundbanner9.png");
+.content9 {
+  color: white;
+  margin-top: 20px;
+  background-image: url("anh/backgroundbanner9.png");
   width: 100%;
+  height: 900px;
 }
-.banner9_tex1 {
+.title9 {
+  padding-top: 400px;
   font-size: 4rem;
   width: 40%;
-  left: 20%;
+  padding-left: 20px;
   line-height: normal;
   color: var(--White-color);
 }
