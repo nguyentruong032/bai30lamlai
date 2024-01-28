@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
 }
+/* html {
+  scroll-behavior: smooth;
+} */
 .banner1 {
   background-image: url("anh/Backgroundbanner1.png");
   width: 100%;
@@ -115,10 +118,27 @@ hr {
 .banner4 {
   padding-top: 50px;
   background-color: white;
-  height: 900px;
+  height: 1000px;
 }
 .noidung4 {
   padding-left: 100px;
+  width: 500px;
+}
+.button {
+  padding-left: 1200px;
+}
+.buttonbanner4 {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+.buttonbanner4:hover {
+  background-color: darkgreen;
+  color: yellow;
+  transform: scale(2);
 }
 .tieude4 {
   font-size: 60px;
@@ -139,6 +159,7 @@ hr {
 }
 .anh4 {
   padding-left: 5px;
+  padding-top: 50px;
 }
 .cot_4 {
   float: left;
@@ -149,6 +170,7 @@ hr {
   width: 100%;
   height: 1000px;
   background-image: url("anh/Backgroundbanner5.png");
+  margin-top: 70px;
 }
 .noidung5 {
   padding-left: 100px;
@@ -214,11 +236,11 @@ hr {
 .banner7 {
   width: auto;
   height: 700px;
-  background-image: url("anh/backgroundbanner7.png");
+  background-image: url("./anh/backgroundbanner7.png");
 }
 .noidung7 {
   float: right;
-  padding-right: 30px;
+  padding-right: 100px;
   padding-top: 300px;
   text-align: right;
   color: white;
@@ -268,13 +290,13 @@ hr {
 .noidung8-1 .col8-1 p:first-of-type {
   padding-left: 20px;
   color: rgb(2, 74, 2);
-  font-size: 20px;
+  font-size: 30px;
   height: 25px;
 }
 .noidung8-1 .col8-1 p:last-of-type {
   padding-right: 40px;
   color: black;
-  font-size: 15px;
+  font-size: 20px;
   text-align: end;
 }
 .noidung8-2 {
@@ -295,12 +317,12 @@ hr {
   padding-left: 20px;
   height: 25px;
   color: rgb(2, 74, 2);
-  font-size: 20px;
+  font-size: 30px;
 }
 .noidung8-2 .col8-2 p:last-of-type {
   padding-right: 40px;
   color: black;
-  font-size: 15px;
+  font-size: 20px;
   text-align: end;
   height: 50px;
 }
